@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>HMS</title>
-    <link rel="stylesheet", type="text/css", href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <script src="engine.js"></script>
-    <h1>My first site</h1>
-    <p>This is some text</p>
+<div class="login" id="login">
+    <div class="container">
+        <div class="header">
+        </div>
+        <form class="login-form">
+                <input type="text" name="username" class="login-username" placeholder="Uporabniško ime" >
+                <input type="password" name="password " class="login-password" placeholder="Geslo">
+                <button type="button" class="login-btn" id="loginButton">Prijava</button>
+        </form>
+    </div>
+</div>
+
+<div class="main" id="main">
+    <h1>WELCOME</h1>
+</div>
+<script src="./engine.js"></script>
 </body>
 </html>
