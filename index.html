@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>HMS</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
@@ -9,10 +10,12 @@
 <div class="login" id="login">
     <div class="container">
         <div class="header">
+            <h1 class="login-title">Prijava v sistem</h1>
+            <img src="./images/person-icon.png" class="login-image">
         </div>
         <form class="login-form">
-                <input type="text" name="username" class="login-username" placeholder="Uporabniško ime" >
-                <input type="password" name="password " class="login-password" placeholder="Geslo">
+                <input type="text" name="username" class="login-username" placeholder="Uporabniško ime" id="userInput">
+                <input type="password" name="password " class="login-password" placeholder="Geslo" id="passInput">
                 <button type="button" class="login-btn" id="loginButton">Prijava</button>
         </form>
     </div>

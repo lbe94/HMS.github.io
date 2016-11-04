@@ -12,12 +12,11 @@ body {
     top: 0;
     left: 0;
     position: absolute;
-
 }
 
 .container {
-    width: 50%;
-    height: 80%;
+    width: 50vw;
+    height: 80vh;
     text-align: center;
     margin: 0 auto;
     background-color: #ffffff;
@@ -25,11 +24,12 @@ body {
     border-radius: 10px;
     position: absolute;
     left: 25%;
+
 }
 
 .header {
     width: 100%;
-    height: 40%;
+    height: 30%;
     background-color: #8bc34a;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -48,20 +48,20 @@ body {
     position: relative;
     width: 25vw;
     height: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 .login-password{
     position: relative;
     width: 25vw;
     height: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 .login-btn{
     width: 25vw;
     height: 8vh;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     background-color: #8bc34a;
     border:none;
     color:white;
@@ -86,6 +86,22 @@ button:hover{
     left: 0;
     position: absolute;
     visibility: hidden;
+}
+
+.login-title{
+    font-size: 7vh;
+    color: white;
+    font-family: "Lucida Sans Unicode" ;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.login-image {
+    position: relative;
+    width: auto;
+    height: 50%;
+    margin-top: -3%;
 }
 
 
