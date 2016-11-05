@@ -14,15 +14,30 @@
             <img src="./images/person-icon.png" class="login-image">
         </div>
         <form class="login-form">
-                <input type="text" name="username" class="login-username" placeholder="Uporabniško ime" id="userInput">
-                <input type="password" name="password " class="login-password" placeholder="Geslo" id="passInput">
-                <button type="button" class="login-btn" id="loginButton">Prijava</button>
+            <input type="text" name="username" class="login-username" placeholder="Uporabniško ime" id="userInput">
+            <input type="password" name="password " class="login-password" placeholder="Geslo" id="passInput">
+            <button type="button" class="login-btn" id="loginButton">Prijava</button>
         </form>
     </div>
 </div>
 
 <div class="main" id="main">
-    <h1>WELCOME</h1>
+    <input type="checkbox" id="menuToggle">
+    <label for="menuToggle" class="menu-icon">&#9776</label>
+    <header class="site-header"></header>
+    <nav class="menu">
+        <ul>
+            <li class="menu-header"><h1 class="menu-title">HMS 1.0</h1></li>
+            <li class="menu-item"><a class="menu-link" href="#">Blagajna</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Rezervacije</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Kapacitete</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Opravila</a></li>
+            <li clas="menu-item"><a  class="menu-link" href="#">E-pošta</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Poslovanje</a></li>
+        </ul>
+    </nav>
+    <div class="dashboard">
+    </div>
 </div>
 <script src="./engine.js"></script>
 </body>
