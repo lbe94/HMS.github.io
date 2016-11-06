@@ -15,9 +15,9 @@
             <img src="./images/HMS_logo.png" class="login-image">
         </div>
         <form class="login-form">
-            <input type="text" name="username" class="login-username" placeholder="Uporabniško ime" id="userInput">
-            <input type="password" name="password " class="login-password" placeholder="Geslo" id="passInput">
-            <button type="button" class="login-btn" id="loginButton">Prijava</button>
+            <input type="text" name="username" class="inputfield" placeholder="Uporabniško ime" id="userInput" onfocus="this.placeholder=''" onblur="this.placeholder= 'Uporabniško ime'">
+            <input type="password" name="password " class="inputfield" placeholder="Geslo" id="passInput" onfocus="this.placeholder=''" onblur="this.placeholder= 'Geslo'">
+            <button type="button" class="button" id="loginButton">Prijava</button>
         </form>
     </div>
 </div>
@@ -37,7 +37,15 @@
             <li class="menu-item"><a class="menu-link" href="#">Poslovanje</a></li>
         </ul>
     </nav>
-    <div class="dashboard">
+    <div class="content">
+        <div class="dashboard">
+            <a href="#"><div class="dashboard-elem">FIRST</div></a>
+            <a href="#"><div class="dashboard-elem">FIRST</div></a>
+            <a href="#"><div class="dashboard-elem">FIRST</div></a>
+            <a href="#"><div class="dashboard-elem">FIRST</div></a>
+            <a href="#"><div class="dashboard-elem">FIRST</div></a>
+            <a href="#"><div class="dashboard-elem">FIRST</div></a>
+        </div>
     </div>
 </div>
 <script src="./engine.js"></script>
