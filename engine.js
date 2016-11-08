@@ -16,8 +16,7 @@ window.onload = function () {
         console.log(check);
         if (check) {
             if (loginDiv.style.visibility !== 'hidden') {
-                loginDiv.style.visibility = 'hidden';
-                mainDiv.style.visibility = 'visible';
+                window.open("./content.html", "_self");
             }
         }
     };

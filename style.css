@@ -86,7 +86,6 @@ button:hover {
     top: 0;
     left: 0;
     position: absolute;
-    visibility: hidden;
 }
 
 .login-title {
@@ -236,6 +235,7 @@ nav a:hover {
     width: 20vw;
     height: 20vh;
     display: inline-block;
+    ;
     border-radius: 2px;
     margin: 1%;
 
