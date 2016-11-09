@@ -13,18 +13,18 @@
     <label for="menuToggle" class="menu-icon">&#9776</label>
     <header class="site-header"></header>
     <nav class="menu">
-        <ul>
-            <li class="menu-header"><img src="./images/HMS_logo.png" class="logo"></li>
-            <li class="menu-item"><a class="menu-link" href="#">Blagajna</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Rezervacije</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Kapacitete</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Opravila</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">E-pošta</a></li>
-            <li class="menu-item"><a class="menu-link" href="#">Poslovanje</a></li>
+        <ul id="menuList">
+            <li class="menu-header"><a class="menu-link" href="#"><img src="./images/HMS_logo.png" class="logo" id="dashboardLink"></a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="cashierLink">Blagajna</a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="reservationsLink">Rezervacije</a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="facilitiesLink">Kapacitete</a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="tasksLink">Opravila</a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="mailLink">E-pošta</a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="businessLink">Poslovanje</a></li>
         </ul>
     </nav>
     <div class="content">
-        <div class="dashboard">
+        <div class="dashboard" id="dashboard">
             <div class="dashboard-elem">
                 <div class="first-tab tab-top">
                     <h2 class="tab-title">Prihodi</h2>
@@ -47,6 +47,7 @@
                 <div class="fourth-tab tab-top">
                     <h2 class="tab-title">Sporočila</h2>
                 </div>
+                <img src="./images/paper-plane-xxl.png" class="tab-image">
                 <p class="tab-content"> 3</p>
             </div>
             <div class="dashboard-elem-large">
@@ -60,8 +61,38 @@
                     <li>Fourth item</li>
                     <li>Fifth item</li>
                     <li>Sixth item</li>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                    <li>Fourth item</li>
+                    <li>Fifth item</li>
+                    <li>Sixth item</li>
                 </ol>
             </div>
+            <div class="dashboard-elem-medium medium-first">
+                <p>Graf</p>
+            </div>
+            <div class="dashboard-elem-medium medium-second">
+                <p>Vreme</p>
+            </div>
+        </div>
+        <div class="cashier" id="cashier">
+            <h1>Blagajna</h1>
+        </div>
+        <div class="reservations" id="reservations">
+            <h1>Rezervacije</h1>
+        </div>
+        <div class="facilities" id="facilities">
+            <h1>Kapacitete</h1>
+        </div>
+        <div class="tasks" id="tasks">
+            <h1>Opravila</h1>
+        </div>
+        <div class="mail" id="mail">
+            <h1>E-pošta</h1>
+        </div>
+        <div class="business" id="business">
+            <h1>Poslovanje</h1>
         </div>
     </div>
 </div>

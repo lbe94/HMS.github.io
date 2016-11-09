@@ -211,10 +211,17 @@ nav a:hover {
 
 .content{
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     text-align:center;
     background-color: #dce9e0;
+    margin: 0 auto;
+}
+
+.dashboard{
+    text-align: center;
+    visibility: visible;
+    position: absolute;
 }
 
 .dashboard-elem{
@@ -274,7 +281,7 @@ nav a:hover {
     width: auto;
     height: 60%;
     float: right;
-    margin-top: 10%;
+    margin-top:0;
 }
 
 .tab-title{
@@ -296,13 +303,65 @@ nav a:hover {
 }
 
 .dashboard-elem-large{
-    width: 600px;
+    width: 510px;
     height: 350px;
     background-color: #ffffff;
     display: inline-block;
     border-radius: 2px;
-    margin-left: 2%;
+    margin-left: 2.5%;
     margin-right: 0.228%;
-    margin-top:2%;
+    margin-top:1%;
+    margin-bottom:0;
     float: left;
+}
+
+.dashboard-elem-medium{
+    width: 510px;
+    height: 170px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 2px;
+    margin-left: 0.5%;
+    margin-right: 0.228%;
+    margin-top:1%;
+    margin-bottom:0;
+    float: left;
+}
+
+.medium-first{
+    background-color:#05979d ;
+}
+
+.medium-second{
+    background-color: #ff3c54;
+}
+
+.cashier{
+    visibility: hidden;
+    position: absolute;
+}
+
+.reservations{
+    visibility: hidden;
+    position: absolute;
+}
+
+.facilities{
+    visibility: hidden;
+    position: absolute;
+}
+
+.tasks{
+    visibility: hidden;
+    position: absolute;
+}
+
+.mail{
+    visibility: hidden;
+    position: absolute;
+}
+
+.business{
+    visibility: hidden;
+    position: absolute;
 }
