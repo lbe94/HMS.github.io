@@ -164,7 +164,7 @@ nav a:hover {
 }
 
 .menu-icon:hover{
-    background:#2c3e50;
+    color: #2c3e50;
 }
 
 .menu-header{
@@ -223,26 +223,93 @@ nav a:hover {
     width: 100%;
     height: auto;
     position: relative;
+    text-align:center;
 }
 
-.dashboard{
-
-}
-
-.dashboard-elem {
-    box-shadow: 2px 2px 1px #687c9d;
-    background: #226e9d;
-    width: 20vw;
-    height: 20vh;
+.dashboard-elem{
+    width:250px;
+    height: 160px;
     display: inline-block;
-    ;
     border-radius: 2px;
-    margin: 1%;
-
+    margin-left: 0.228%;
+    margin-right: 0.228%;
+    margin-top:2%;
 }
 
 .menu-image{
     width: 10%;
     height: auto;
     position:relative;
+}
+
+.icon-image{
+    width:20%;
+    height: auto;
+    position: relative;
+}
+
+.first-tab{
+    background-color: #05979d;
+}
+
+.first-tab:hover{
+    background-color: #05b3b9;
+    cursor: hand;
+}
+
+.second-tab{
+    background-color: #19c37b;
+}
+
+.second-tab:hover{
+    background-color: #19d58c;
+    cursor: hand;
+}
+
+.third-tab{
+    background-color: #ffd600;
+}
+
+.third-tab:hover{
+    background-color: #ebff00;
+    cursor: hand;
+}
+
+.fourth-tab{
+    background-color: #ff3c54;
+}
+
+.fourth-tab:hover{
+    background-color: #ff5747;
+    cursor: hand;
+}
+.fifth-tab{
+    background: #8d9791;
+}
+
+.tab-image{
+    position: relative;
+    width: auto;
+    height: 60%;
+    float: right;
+    margin-top: 10%;
+}
+
+.tab-title{
+    margin:0 auto;
+    color: #ffffff;
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    font-family: "Lucida Sans Unicode";
+}
+
+.tab-content{
+    margin: 0 auto;
+    color: #ffffff;
+    position: relative;
+    margin-left: 5%;
+    font-family: "Lucida Sans Unicode";
+    font-size: xx-large;
+    float: left;
 }
