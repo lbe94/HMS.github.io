@@ -14,7 +14,9 @@
     <header class="site-header"></header>
     <nav class="menu">
         <ul id="menuList">
-            <li class="menu-header"><a class="menu-link" href="#"><img src="./images/HMS_logo.png" class="logo" id="dashboardLink"></a></li>
+            <li class="menu-header"><a class="menu-link" href="#"><img src="./images/HMS_logo.png" class="logo"></a>
+            </li>
+            <li class="" menu-header><a class="menu-link" href="#" id="dashboardLink">Domov</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="cashierLink">Blagajna</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="reservationsLink">Rezervacije</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="facilitiesLink">Kapacitete</a></li>
@@ -25,33 +27,21 @@
     </nav>
     <div class="content">
         <div class="dashboard" id="dashboard">
-            <div class="dashboard-elem">
-                <div class="first-tab tab-top">
-                    <h2 class="tab-title">Prihodi</h2>
-                </div>
-                <p class="tab-content"> 3</p>
+            <div class="dashboard-elem first-tab arrival-im">
+                <h2 class="small-tab-title">Prihodi</h2>
             </div>
-            <div class="dashboard-elem">
-                <div class="second-tab tab-top">
-                    <h2 class="tab-title">Odhodi</h2>
-                </div>
-                <p class="tab-content"> 2</p>
+            <div class="dashboard-elem second-tab departure-im">
+                <h2 class="small-tab-title">Odhodi</h2>
             </div>
-            <div class="dashboard-elem">
-                <div class="third-tab tab-top">
-                    <h2 class="tab-title">Gosti</h2>
-                </div>
-                <p class="tab-content">25</p>
+            <div class="dashboard-elem third-tab guests-im">
+                <h2 class="small-tab-title">Gosti</h2>
             </div>
-            <div class="dashboard-elem back-im">
-                <div class="fourth-tab tab-top">
-                    <h2 class="tab-title">Sporočila</h2>
-                </div>
-                <p class="tab-content"> 3</p>
+            <div class="dashboard-elem mail-im fourth-tab">
+                <h2 class="small-tab-title">Sporočila</h2>
             </div>
             <div class="dashboard-elem-large">
                 <div class="fifth-tab tab-top">
-                    <h2 class="tab-title">Opravila</h2>
+                    <h2 class="medium-tab-title">Opravila</h2>
                 </div>
                 <ul class="tasksList">
                     <li class="tasksItem">First item</li>
@@ -68,11 +58,27 @@
                     <li class="tasksItem">Sixth item</li>
                 </ul>
             </div>
-            <div class="dashboard-elem-medium medium-first">
-                <p>Graf</p>
+            <div class="dashboard-elem-medium" id="chartContainer">
+                <div class="tab-side medium-first">
+                    <h2 class="medium-tab-title">Nočitve</h2>
+                </div>
             </div>
-            <div class="dashboard-elem-medium medium-second">
-                <p>Vreme</p>
+            <div class="dashboard-elem-medium">
+                <div class="weather-tab-top">
+                    <h2 class="medium-tab-title">Vreme</h2>
+                </div>
+                <div class="weather-elem separation-elem">
+                    <p1>Pon</p1>
+                </div>
+                <div class="weather-elem separation-elem">
+                    <p1>Tor</p1>
+                </div>
+                <div class="weather-elem separation-elem">
+                    <p1>Sre</p1>
+                </div>
+                <div class="weather-elem">
+                    <p1>Čet</p1>
+                </div>
             </div>
         </div>
         <div class="cashier" id="cashier">

@@ -66,7 +66,5 @@ window.onload = function () {
         tasksDiv.style.visibility = 'hidden';
         mailDiv.style.visibility = 'hidden';
         businessDiv.style.visibility = 'hidden'
-    }
-
-
+    };
 }
