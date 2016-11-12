@@ -257,7 +257,7 @@ nav a:hover {
 .tab-image{
     position: relative;
     width: auto;
-    height: 60%;
+    height: 70%;
     float: right;
     margin-top:0;
 }
@@ -364,4 +364,11 @@ nav a:hover {
 .business{
     visibility: hidden;
     position: absolute;
+}
+
+.graph-canvas{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    float: right;
 }
