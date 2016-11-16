@@ -14,6 +14,14 @@ var mailDiv = document.getElementById('mail');
 var businessDiv = document.getElementById('business');
 
 var menuList = document.getElementById('menuList');
+var reservationsLink = document.getElementById('reservationsLink');
+var dashboardLink = document.getElementById('dashboardLink');
+var cashierLink = document.getElementById('cashierLink');
+var facilitiesLink = document.getElementById('facilitiesLink');
+var mailLink = document.getElementById('mailLink');
+var businessLink = document.getElementById('businessLink');
+var tasksLink = document.getElementById('tasksLink')
+
 
 var graphCanvas = document.getElementById('graphCanvas');
 
@@ -24,10 +32,13 @@ window.onload = function () {
     menuList.addEventListener("click", function (e) {
         console.log(e.target.id);
 
+
+
         switch(e.target.id){
             case 'dashboardLink':
                 hideAllDivs();
                 dashboardDiv.style.visibility = 'visible';
+
                 break;
 
             case 'cashierLink':
@@ -90,7 +101,7 @@ var drawGraphFrame = function drawGraphFrame(){
 
 
     ctx.beginPath();
-    ctx.strokeStyle = "##c2c2a3";
+    ctx.strokeStyle = "#c2c2a3";
     ctx.lineWidth = 0.3;
     for(var i = 0; i < numSteps - 1; i++){
         ctx.moveTo(sideMargin, currentHeight);
