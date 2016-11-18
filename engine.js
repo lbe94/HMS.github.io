@@ -30,45 +30,49 @@ var graphCanvas = document.getElementById('graphCanvas');
 window.onload = function () {
 
     menuList.addEventListener("click", function (e) {
-        console.log(e.target.id);
-
-
+        //console.log(e.target.id);
 
         switch(e.target.id){
             case 'dashboardLink':
                 hideAllDivs();
                 dashboardDiv.style.visibility = 'visible';
-
+                dashboardLink.className = "menu-link active";
                 break;
 
             case 'cashierLink':
                 hideAllDivs();
                 cashierDiv.style.visibility = 'visible';
+                cashierLink.className = "menu-link active";
                 break;
 
             case 'reservationsLink':
                 hideAllDivs();
                 reservationsDiv.style.visibility = 'visible';
+                reservationsLink.className = "menu-link active";
                 break;
 
             case 'facilitiesLink':
                 hideAllDivs();
                 facilitiesDiv.style.visibility = 'visible';
+                facilitiesLink.className = "menu-link active";
                 break;
 
             case 'tasksLink':
                 hideAllDivs();
                 tasksDiv.style.visibility = 'visible';
+                tasksLink.className = "menu-link active";
                 break;
 
             case 'mailLink':
                 hideAllDivs();
                 mailDiv.style.visibility = 'visible';
+                mailLink.className = "menu-link active";
                 break;
 
             case 'businessLink':
                 hideAllDivs();
                 businessDiv.style.visibility = 'visible';
+                businessLink.className = "menu-link active";
         }
     });
 
@@ -79,12 +83,19 @@ window.onload = function () {
 
 var hideAllDivs = function () {
     dashboardDiv.style.visibility = 'hidden';
+    dashboardLink.className = "menu-link";
     cashierDiv.style.visibility = 'hidden';
+    cashierLink.className = "menu-link";
     facilitiesDiv.style.visibility = 'hidden';
+    facilitiesLink.className = "menu-link";
     reservationsDiv.style.visibility = 'hidden';
+    reservationsLink.className = "menu-link";
     tasksDiv.style.visibility = 'hidden';
+    tasksLink.className = "menu-link";
     mailDiv.style.visibility = 'hidden';
-    businessDiv.style.visibility = 'hidden'
+    mailLink.className = "menu-link";
+    businessDiv.style.visibility = 'hidden';
+    businessLink.className = "menu-link";
 };
 
 var drawGraphFrame = function drawGraphFrame(){
@@ -125,7 +136,7 @@ var drawGraph = function (_m1, _m2, _m3, _m4, _m5) {
     var min = findMin(_m1, _m2, _m3, _m4, _m5);
 
     var hU = (height / (max));
-    console.log("HU: " + hU);
+    //console.log("HU: " + hU);
     var wU = width / 6;
 
     ctx.beginPath();

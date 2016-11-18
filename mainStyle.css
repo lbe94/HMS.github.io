@@ -31,6 +31,25 @@ body {
 
 }
 
+.roundButton{
+    width: 10vh;
+    height: 5vw;
+    margin-bottom: 2vh;
+    background-color: #bcca1d;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid;
+    border-color: #ffffff;
+    margin-top: 0;
+    position: absolute;
+    float: right;
+}
+
 button:hover {
     background-color: #2c3e50;
     transition-duration: 0.4s;
@@ -75,8 +94,13 @@ nav a {
     background-color: #2c3e50;
 }
 
+
 nav a:hover {
     background-color: #8d9791;
+}
+
+nav a:active{
+    background-color: #2196f3;
 }
 
 .menu {
@@ -377,32 +401,38 @@ nav a:hover {
 .cashier{
     visibility: hidden;
     position: absolute;
+    top: 7vh;
 }
 
 .reservations{
     text-align: center;
     visibility: hidden;
     position: absolute;
+    top: 7vh;
 }
 
 .facilities{
     visibility: hidden;
     position: absolute;
+    top: 7vh;
 }
 
 .tasks{
     visibility: hidden;
     position: absolute;
+    top: 7vh;
 }
 
 .mail{
     visibility: hidden;
     position: absolute;
+    top: 7vh;
 }
 
 .business{
     visibility: hidden;
     position: absolute;
+    top: 7vh;
 }
 
 .graph-canvas{
@@ -430,4 +460,8 @@ nav a:hover {
 
 .tasksItem.selected{
     background-color: #bcca1d;
+}
+
+.active{
+    background-color: #4caf50;
 }
