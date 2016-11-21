@@ -48,6 +48,8 @@ body {
     margin-top: 0;
     position: absolute;
     float: right;
+    margin-top: 1%;
+    margin-left: 15vw;
 }
 
 button:hover {
@@ -319,6 +321,7 @@ nav a:active{
     float: right;
     margin-right: 5%;
     font-family: "Lucida Sans Unicode";
+    font-size: 2vw;
 }
 
 .medium-tab-title{
@@ -326,13 +329,14 @@ nav a:active{
     color: #ffffff;
     position: relative;
     font-family: "Lucida Sans Unicode";
+    font-size: 2vw;
 }
 
 .tab-content{
     color: #303030;
     position: relative;
     font-family: "Lucida Sans Unicode";
-    font-size: 100%;
+    font-size: 1vw;
     float: left;
     margin: 0 auto;
 }
@@ -383,9 +387,9 @@ nav a:active{
 }
 
 .tasksItem{
-    font-size: large;
     text-decoration: none;
     font-family: "Lucida Sans Unicode";
+    font-size: 1vw;
     margin-top: 1%;
     color: #8d9791;
 }
@@ -444,14 +448,16 @@ nav a:active{
 
 .reservations-list{
     width: 80%;
-    height: 80%;
+    height: 90%;
     margin: 0 auto;
     position: relative;
 }
 
 .reservations-button{
-    width: 15%;
-    height: auto;
+    width: 30%;
+    position: relative;
+    float: right;
+    margin-right: 5%;
 }
 
 .tasksItem:hover{
@@ -464,4 +470,35 @@ nav a:active{
 
 .active{
     background-color: #4caf50;
+}
+
+.reservationsInput{
+    position: relative;
+    margin-top: 1vh;
+}
+
+.reservations-form{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.reservationTable{
+    position: relative;
+    width: 100%;
+}
+
+.activeReservation{
+    background-color: #2c3e50;
+}
+
+.cancel-button{
+    background-color: #f44336;
+}
+
+.button-column{
+    position: relative;
+    width: 10%;
+    height: auto;
+    floar: right;
 }

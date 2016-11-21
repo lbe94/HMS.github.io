@@ -14,10 +14,11 @@
     <header class="site-header"></header>
     <nav class="menu">
         <ul id="menuList">
-            <li class="menu-header"><a class="menu-link" href="#" id="navigacija"><img src="./images/HMS_logo.png" class="logo"></a>
+            <li class="menu-header"><a class="menu-link" href="#" id="navigacija"><img src="./images/HMS_logo.png"
+                                                                                       class="logo"></a>
             </li>
             <li class="" menu-header><a class="menu-link active" href="#" id="dashboardLink">Domov</a></li>
-            <li class="menu-item" ><a class="menu-link" href="#" id="cashierLink">Blagajna</a></li>
+            <li class="menu-item"><a class="menu-link" href="#" id="cashierLink">Blagajna</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="reservationsLink">Rezervacije</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="facilitiesLink">Kapacitete</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="tasksLink">Opravila</a></li>
@@ -87,41 +88,160 @@
             <h1>Blagajna</h1>
         </div>
         <div class="reservations" id="reservations">
-            <form>
+            <form class="reservations-form">
                 <div class="dashboard-elem-large-large">
                     <div class="sixth-tab tab-top">
-                        <input type="text" class="inputfield" placeholder="Poišči rezervacijo">
+                        <input type="text" class="inputfield reservationsInput" placeholder="Poišči rezervacijo">
                         <button type="button" class="roundButton">+</button>
                     </div>
                     <ul class="tasksList">
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
-                        <li class="tasksItem">idRezervacije Št.Sobe Storitev Datum ImeInPriimek</li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="tasksItem">
+                            <table class="reservationTable">
+                                <tr>
+                                    <td>idRezervacije</td>
+                                    <td>Datum</td>
+                                    <td>Storitev</td>
+                                    <td>Ime in priimek</td>
+                                    <td>Št. sobe</td>
+                                </tr>
+                            </table>
+                        </li>
                     </ul>
                 </div>
-                <button type="button" class="button">Izbris</button>
-                <button type="button" class="button">Prevzem</button>
+                <button type="button" class="button reservations-button">Prevzem</button>
+                <button type="button" class="button reservations-button cancel-button">Izbris</button>
             </form>
         </div>
         <div class="facilities" id="facilities">
