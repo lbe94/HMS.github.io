@@ -421,6 +421,10 @@ nav a:active{
     top: 7vh;
 }
 
+td{
+    vertical-align: middle;
+}
+
 .reservations{
     text-align: center;
     visibility: hidden;
@@ -430,7 +434,9 @@ nav a:active{
 
 .facilities{
     visibility: hidden;
+    text-align: center;
     position: absolute;
+    width: 100%;
     top: 7vh;
 }
 
@@ -458,10 +464,11 @@ nav a:active{
 .business-large-elem{
     float: left;
     width: 35vw;
+    height: 63vh;
     display: inline-block;
 }
 
-.busines-medium-elem{
+.business-medium-elem{
     float: left;
     height:20vh;
     background-color:#19c37b;
@@ -489,7 +496,7 @@ nav a:active{
 }
 
 .tasksItem:hover{
-    background-color: #bcca1d;
+    background-color: #05979d;
 }
 
 .tasksItem.selected{
@@ -513,6 +520,7 @@ nav a:active{
 .reservationTable{
     position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .activeReservation{
