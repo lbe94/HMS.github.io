@@ -56,6 +56,7 @@ body {
     margin-bottom: 2vh;
     text-align: center;
     border-radius: 5px;
+    font-size: 1.5vw;
 }
 
 .button {
@@ -67,7 +68,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: medium;
+    font-size: 1.5vw;
     border-radius: 5px;
 
 }
@@ -79,7 +80,7 @@ button:hover {
 }
 
 .login-title {
-    font-size: 4vh;
+    font-size: 1.5vw;
     color: white;
     font-family: "Lucida Sans Unicode";
     position: relative;
