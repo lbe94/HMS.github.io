@@ -350,19 +350,3 @@ var findMin = function (_m1, _m2, _m3, _m4, _m5) {
     }
     return arr[max];
 };
-
-// get weather data
-function getJSON() {
-    var url = 'http://api.openweathermap.org/data/2.5/weather';
-    $.ajax({
-        dataType: "jsonp",
-        url: url,
-        jsonCallback: 'jsonp',
-        data: {q: city},
-        cache: false,
-        success: function (data) {
-            data.city = city;
-            callback(data);
-        }
-    });
-};
