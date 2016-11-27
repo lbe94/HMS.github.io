@@ -23,7 +23,7 @@ Primarno je aplikacija namenjena za uporabo na namiznih računalnikih, ker pa je
 
 **APLIKACIJA V RAZLIČNIH BRSKALNIKIH**
 
-V prvi fazi sem aplikacijo preizkusil v treh brskalnikih (Chrome, Mozilla Firefox, Explorer). Edina težava na katero sem naletel pri testiranju je vnosno polje za izbiro datuma. Funkcionalnost izbire datuma iz koledarja, ki se pokaže ob kliku na vnosno polje namreč deluje le v brskalniku Chrome, medtem ko v ostalih dveh brskalnikih ne deluje. Če si pobliže ogledamo še prilajajanje aplikacije velikosti zaslona, posebnih težav pri spreminjanju velikosti okna nisem opazil. Najpogosteje uporabljeni enoti gradnikov vmesnika sta vw in vh, kar pomeni, da se gradniki sproti prilagajajo velikosti okna in tako celotna vsebina strani vselej ostaja vidna na zaslonu.
+V prvi fazi sem aplikacijo preizkusil v treh brskalnikih (Chrome, Mozilla Firefox, Explorer). Edina težava na katero sem naletel pri testiranju je vnosno polje za izbiro datuma. Funkcionalnost izbire datuma iz koledarja, ki se pokaže ob kliku na vnosno polje namreč deluje le v brskalniku Chrome, medtem ko v ostalih dveh brskalnikih ne deluje, na kar me opozori tudi validator. Če si pobliže ogledamo še prilajajanje aplikacije velikosti zaslona, posebnih težav pri spreminjanju velikosti okna nisem opazil. Najpogosteje uporabljeni enoti gradnikov vmesnika sta vw in vh, kar pomeni, da se gradniki sproti prilagajajo velikosti okna in tako celotna vsebina strani vselej ostaja vidna na zaslonu.
 
 **POSEBNI GRADNIKI STRANI**
 
