@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60cfd05c-d853-42d3-9c89-82160fb9b0ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content.html" afterPath="$PROJECT_DIR$/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainStyle.css" afterPath="$PROJECT_DIR$/mainStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hotelCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,6 +128,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -299,7 +298,7 @@
       <workItem from="1479726498191" duration="51000" />
       <workItem from="1479884037421" duration="7921000" />
       <workItem from="1480059754404" duration="871000" />
-      <workItem from="1480080796612" duration="36813000" />
+      <workItem from="1480080796612" duration="36951000" />
     </task>
     <task id="LOCAL-00001" summary="Initial files creation">
       <created>1478271704058</created>
@@ -459,7 +458,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175489000" />
+    <option name="totallyTimeSpent" value="175627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
