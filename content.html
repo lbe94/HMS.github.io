@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>HMS</title>
     <link rel="stylesheet" type="text/css" href="./mainStyle.css">
     <link rel="icon" href="./images/HMS_logo.png">
@@ -10,15 +10,16 @@
 <body>
 <div class="main" id="main">
     <input type="checkbox" checked="checked" id="menuToggle">
-    <label for="menuToggle" class="menu-icon">&#9776</label>
+    <label for="menuToggle" class="menu-icon">&#9776;</label>
     <header class="site-header">
     </header>
     <nav class="menu">
         <ul id="menuList">
             <li class="menu-header"><a class="menu-link" href="#" id="navigacija"><img src="./images/HMS_logo.png"
-                                                                                       class="logo"></a>
+                                                                                       class="logo"
+                                                                                       alt="Ne najdem slike"></a>
             </li>
-            <li class="" menu-header><a class="menu-link active" href="#" id="dashboardLink">Domov</a></li>
+            <li class="menu-header"><a class="menu-link active" href="#" id="dashboardLink">Domov</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="cashierLink">Blagajna</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="reservationsLink">Rezervacije</a></li>
             <li class="menu-item"><a class="menu-link" href="#" id="facilitiesLink">Kapacitete</a></li>
@@ -32,22 +33,22 @@
             <div class="dashboard-elem first-tab arrival-im">
                 <h2 class="small-tab-title">Prihodi</h2>
                 <br>
-                <p1 class="informationText">0</p1>
+                <h1 class="informationText">0</h1>
             </div>
             <div class="dashboard-elem second-tab departure-im">
                 <h2 class="small-tab-title">Odhodi</h2>
                 <br>
-                <p1 class="informationText">0</p1>
+                <h1 class="informationText">0</h1>
             </div>
             <div class="dashboard-elem third-tab guests-im">
                 <h2 class="small-tab-title">Gosti</h2>
                 <br>
-                <p1 class="informationText">0</p1>
+                <h1 class="informationText">0</h1>
             </div>
             <div class="dashboard-elem mail-im fourth-tab">
                 <h2 class="small-tab-title">Sporočila</h2>
                 <br>
-                <p1 class="informationText">0</p1>
+                <h1 class="informationText">0</h1>
             </div>
             <div class="dashboard-elem-large stp-elem" id="tasksList">
                 <div class="fifth-tab tab-top">
@@ -68,7 +69,6 @@
                 <div class="tab-side medium-first">
                     <h2 class="medium-tab-title">Nočitve</h2>
                 </div>
-
             </div>
             <br>
             <div class="dashboard-elem-medium">
@@ -76,25 +76,25 @@
                     <h2 class="medium-tab-title">Vreme</h2>
                 </div>
                 <div class="weather-elem separation-elem">
-                    <p1 class="weather-text">Pon</p1>
+                    <img src="./images/Weather%20Sun.ico" class="weather-icon" alt="Ne najdem slike">
                     <br>
-                    <img src="./images/Weather%20Sun.ico" class="weather-icon">
+                    <h1 class="weather-text">Pon</h1>
 
                 </div>
                 <div class="weather-elem separation-elem">
-                    <p1 class="weather-text">Tor</p1>
+                    <img src="./images/Weather%20Sun.ico" class="weather-icon" alt="Ne najdem slike">
                     <br>
-                    <img src="./images/Weather%20Sun.ico" class="weather-icon">
+                    <h1 class="weather-text">Tor</h1>
                 </div>
                 <div class="weather-elem separation-elem">
-                    <p1 class="weather-text">Sre</p1>
+                    <img src="./images/Weather%20Sun.ico" class="weather-icon" alt="Ne najdem slike">
                     <br>
-                    <img src="./images/Weather%20Sun.ico" class="weather-icon">
+                    <h1 class="weather-text">Sre</h1>
                 </div>
                 <div class="weather-elem">
-                    <p1 class="weather-text">Čet</p1>
+                    <img src="./images/Weather%20Sun.ico" class="weather-icon" alt="Ne najdem slike">
                     <br>
-                    <img src="./images/Weather%20Sun.ico" class="weather-icon">
+                    <h1 class="weather-text">Čet</h1>
                 </div>
             </div>
         </div>
@@ -108,11 +108,13 @@
                 <hr>
                 <table class=cashierTable>
                     <thead id="titleRow">
-                    <td class="cashierTop">Naziv</td>
-                    <td class="cashierTop">EM</td>
-                    <td class="cashierTop">Cena/EM</td>
-                    <td class="cashierTop">Količina</td>
-                    <td class="cashierTop">Znesek</td>
+                    <tr>
+                        <td class="cashierTop">Naziv</td>
+                        <td class="cashierTop">EM</td>
+                        <td class="cashierTop">Cena/EM</td>
+                        <td class="cashierTop">Količina</td>
+                        <td class="cashierTop">Znesek</td>
+                    </tr>
                     </thead>
                     <tbody class="cashierBody" id="cashierTable">
 
@@ -122,23 +124,17 @@
                 <table class="finalTable">
                     <tr>
                         <td>
-                            <p1 class="instructionsText">Znesek brez DDV:
-                                <p2 class="instructionsText" id="totalAmount">0.00 EUR</p2>
-                            </p1>
+                            <h2 class="instructionsText" id="totalAmount">0.00 EUR</h2>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p1 class="instructionsText">DDV:
-                                <p2 class="instructionsText">23 %</p2>
-                            </p1>
+                            <h2 class="instructionsText">23 %</h2>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p1 class="instructionsText">Končni znesek:
-                                <p2 class="instructionsText" id="finalAmount"> 0 EUR</p2>
-                            </p1>
+                            <h2 class="instructionsText" id="finalAmount"> 0 EUR</h2>
                         </td>
                     </tr>
                 </table>
@@ -321,18 +317,18 @@
             <div class="dashboard-elem-medium business-medium-elem">
                 <h2 class="medium-tab-title">Zasedene kapacitete</h2>
                 <br>
-                <p1 class="informationText notMainNumbers">0</p1>
+                <h2 class="informationText notMainNumbers">0</h2>
             </div>
             <br>
             <div class="dashboard-elem-medium business-medium-elem">
                 <h2 class="medium-tab-title">Proste kapacitete</h2>
                 <br>
-                <p1 class="informationText notMainNumbers">0</p1>
+                <h1 class="informationText notMainNumbers">0</h1>
             </div>
             <div class="dashboard-elem-medium business-medium-elem">
                 <h2 class="medium-tab-title">Število gostov</h2>
                 <br>
-                <p1 class="informationText notMainNumbers">0</p1>
+                <h1 class="informationText notMainNumbers">0</h1>
             </div>
         </div>
         <div class="tasks" id="tasks">
@@ -385,18 +381,18 @@
             <div class="dashboard-elem-medium business-medium-elem">
                 <h2 class="medium-tab-title">Prihodki ta mesec</h2>
                 <br>
-                <p1 class="informationText notMainNumbers">0</p1>
+                <h1 class="informationText notMainNumbers">0</h1>
             </div>
             <br>
             <div class="dashboard-elem-medium business-medium-elem">
                 <h2 class="medium-tab-title">Odhodki ta mesec</h2>
                 <br>
-                <p1 class="informationText notMainNumbers">0</p1>
+                <h1 class="informationText notMainNumbers">0</h1>
             </div>
             <div class="dashboard-elem-medium business-medium-elem">
                 <h2 class="medium-tab-title">Dobiček ta mesec</h2>
                 <br>
-                <p1 class="informationText notMainNumbers">0</p1>
+                <h1 class="informationText notMainNumbers">0</h1>
             </div>
         </div>
     </div>

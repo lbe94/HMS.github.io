@@ -296,7 +296,7 @@ nav a:active{
 
 .weather-icon{
     position: relative;
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 .separation-elem{
@@ -474,6 +474,7 @@ td{
     color: #dce9e0;
     font-family: "Lucida Sans Unicode";
     float: right;
+    font-size: 1.3vw;
 }
 
 .informationText{
@@ -590,7 +591,6 @@ td{
     position: relative;
     width: 100%;
     height: 100%;
-    rx: 5;
 }
 
 .cashierBody{
