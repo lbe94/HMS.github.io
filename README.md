@@ -16,7 +16,7 @@ Kot smo že omenili, aplikacija na enem mestu združuje vse potrebne funkcije za
 
 Vsakemu uporabniku je omogočena prijava v sistem s pomočjo uporabniškega imena in gesla.
 
-**CILJNA PUBLIKA IN NAPRAVE*
+**CILJNA PUBLIKA IN NAPRAVE**
 Kot nam že samo ime aplikacije pove, jo bodo v prvi vrsti uporabljali zaposleni v hotelskem podjetju. Ker pa je struktura aplikacije zgrajena po principu manjših blokov kot osnovnih gradnikov na grafičnem uporabniškem vmesniku, se dajo le-ti po potrebi hitro odstranjevati in implementirati novi bloki z drugačnimi funkcionalnostmi. 
 Primarno je aplikacija namenjena za uporabo na namiznih računalnikih, ker pa je le-ta prilagodljiva različnim velikostim zaslona, pa je uporaba omogočena tudi na mobilnih terminalih, kot so telefoni in tablice.
 
